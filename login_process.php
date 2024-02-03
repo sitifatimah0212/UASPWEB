@@ -20,10 +20,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("location: dashboard.php");
     } else {
         // Jika data tidak ditemukan, arahkan ke index.php
-        header("location: index.php");
+        header("location: index.html");
     }
 } else {
     // Jika halaman diakses langsung tanpa melalui form index, arahkan ke index.php
-    header("location: index.php");
+    header("location: index.html");
 }
 ?>
