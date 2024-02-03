@@ -6,7 +6,7 @@ session_start();
 // Periksa apakah pengguna telah index
 if (!isset($_SESSION['username'])) {
     // Jika belum index, arahkan kembali ke halaman index.php
-    header("location: index.php");
+    header("location: index.html");
     exit();
 
 }
